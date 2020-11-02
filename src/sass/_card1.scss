@@ -1,0 +1,20 @@
+.item-1{
+    background-color:var(--withe);
+    grid-column-start:1 ;
+    grid-column-end: -1;
+    color: var(--Grayish-Blue);
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.item-1 {
+    h2{
+        color:$Cyan;
+    }
+}
+
+.item-1{
+    strong{
+        color:$Bright-Yellow;
+    }
+}

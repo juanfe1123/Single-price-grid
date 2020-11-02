@@ -1,0 +1,33 @@
+body{
+    font-family: 'Karla', sans-serif;
+    font-size: $Font-size;
+    background-color: $backg;
+
+}
+
+.contenedor {
+    width: 685px;
+    height: 415px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/*-------------GRID---POSICIONAMENTO---------------------------*/
+.contenedor{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: repeat(2,1fr);
+    box-shadow: 2px 2px 10px $shadow;
+    border-radius: 9px;
+
+}
+/*-------------GRID---POSICIONAMENTO---------------------------*/
+
+.contenedor{
+    div{
+        display: block;
+        padding: 20px;
+        color:$withe;
+    }
+
+}

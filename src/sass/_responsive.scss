@@ -1,0 +1,45 @@
+@media screen and (max-width:375px){
+
+    .contenedor{
+        display: grid;
+        width: 350px;
+        height: 500px;
+        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+    .item-2{
+        border-radius: 1px;
+    }
+    .item-1{
+        border-radius: 1px
+    }
+    .item-2{
+        border-radius: 1px
+    }
+    .item-3{
+        border-radius: 1px
+    }
+}
+
+@media screen and (max-width:414px){
+
+    .contenedor{
+        display: grid;
+        width: 350px;
+        height: 500px;
+        grid-template-rows: repeat(1,1fr);
+        grid-template-columns: repeat(1,1fr);
+    }
+    .item-2{
+        border-radius: 1px;
+    }
+    .item-1{
+        border-radius: 1px
+    }
+    .item-2{
+        border-radius: 1px
+    }
+    .item-3{
+        border-radius: 1px
+    }
+}

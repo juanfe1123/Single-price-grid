@@ -1,0 +1,39 @@
+.item-2 {
+    background-color: rgb(0, 183, 179);
+    border: 1px solid $Light-Gray;
+    border-bottom-left-radius: 9px;
+}
+
+.item-2 {
+    h2 {
+        font-size: $Font-size;
+    }
+}
+
+.item-2 {
+    span {
+        color: $Light-Gray;
+    }
+}
+
+.item-2 {
+    strong {
+        font-size: 50px;
+    }
+}
+
+.item-2 {
+    .card-text {
+        color: $Light-Gray;
+    }
+}
+
+button {
+    width: 205px;
+    height: 40px;
+    color: $withe;
+    background-color: $Bright-Yellow;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: .6rem;
+}
